@@ -5,35 +5,54 @@
 %=========================================================================
 \preClass{Definition of Function}
 
+ \qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-1}
+
 \begin{problem}
 \item The position of an object as a function of time is given in the plot
   below. Answer each of the following questions.
 
   \scalebox{0.5}{\input{py/week1/preClass1.pgf}}
 
+%  \begin{tikzpicture}[x=2.5cm,y=2.5cm,font=\sffamily]
+%    \begin{scope}[shift={(0,0)}]
+%      \draw[xstep=0.5,ystep=0.25,black,dashed,thick] (0,0) grid (3.0,2.25);
+%      \draw[ultra thick,->] (0,0) -- (3.1,0) node[anchor=north west]  {\footnotesize Time (sec.)};
+%      \draw[ultra thick,->] (0,0) -- (0,2.4);
+%      \node[rotate=90] at (-0.6,1.12) {\small Position (m)};
+%      \node at (1.5,2.5) {\small Position Of An Object};
+%      \foreach \y in {0,0.25,...,2.25} { 
+%        \draw (0.1, \y) -- (-0.1,\y) node[anchor = east] {$\y$}; } 
+%
+%      \foreach \x in {0.0,0.5,...,2.5} { 
+%        \draw (\x,0.1) -- (\x,-0.1) node[anchor =north] {$\x$}; }
+%    \end{scope}
+%  \end{tikzpicture}
+
   \begin{subproblem}
   \item What is the object's initial position?
     \vfill
 
-  \item What is the object's position after one second?
+  \item What is the object's position at $t=1$ second?
     \vfill
 
-  \item What is the object's position after two seconds?
+  \item What is the object's position at $t=2$ seconds?
     \vfill
 
-  \item What is the object's position after three seconds?
+  \item What is the object's position at $t=3$ seconds?
     \vfill
 
   \item Briefly describe the motion of the object and how it moved in
     two or three sentences.
+    \vfill
     \vfill
 
   \end{subproblem}
 
   \clearpage
 
-\item The plot of an object's position is given in the plot below. The
-  object can either move to the right (+) or the left (-).
+\item The graph of an object's position is given in the plot
+  below. The object is on a track and can only move to the right (+)
+  or the left (-).
 
   \scalebox{0.4}{\input{py/week1/preClass2.pgf}}
 
@@ -51,25 +70,26 @@
 
 \actTitle{The Relationship Between Velocity and Time}
 \begin{problem}
-\item The velocity of an object is given in the plot below.  Assume
-  that the object starts at the origin, 0m.
+\item The graph of the velocity of an object is given in the plot
+  below.  Assume that the object starts at the origin, 0m.
 
   \begin{subproblem}
-  \item Complete the sketch of the position based on the velocity.
+  \item Complete the sketch of the graph of the position based on the
+    velocity.
 
     \scalebox{0.8}{\input{py/week1/vel2Pos_day1.pgf}}
 
     \item What is the position when the time is one second?
-      \vspace{3em}
+      \vfill
 
     \item What is the position when the time is two seconds?
-      \vspace{3em}
+      \vfill
 
     \item What is the position when the time is three seconds?
-      \vspace{3em}
+      \vfill
 
     \item What is the position when the time is four seconds?
-      \vspace{3em}
+      \vfill
 
   \end{subproblem}
 
@@ -83,16 +103,16 @@
     \scalebox{0.8}{\input{py/week1/pos2Vel_day1.pgf}}
 
     \item What is the average velocity from 0.0 to 1.0  seconds?
-      \vspace{3em}
+      \vfill
 
     \item What is the average velocity from 1.0 to 2.0  seconds?
-      \vspace{3em}
+      \vfill
 
     \item What is the average velocity from 2.0 to 3.0  seconds?
-      \vspace{3em}
+      \vfill
 
     \item What is the average velocity from 3.0 to 4.0  seconds?
-      \vspace{3em}
+      \vfill
     \end{subproblem}
 
     \clearpage
@@ -199,13 +219,13 @@
 
     \vfill
 
-    \item Determine Emily's position after one hour from starting.
+    \item Determine Emily's position one hour after starting.
       \vspace{3em}
 
-    \item Determine Emily's position after 90 minutes from starting.
+    \item Determine Emily's position 90 minutes after starting.
       \vspace{3em}
 
-    \item Determine Emily's position after two hours from starting.
+    \item Determine Emily's position two hours after starting.
       \vspace{3em}
 
 
@@ -231,6 +251,8 @@
 %========================================================================
 \preClass{Functions Represented By Tables}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-2}
+
 \begin{problem}
 \item The velocity for an object is given in the plot below. Assume
   that the object starts at $x=-1$m.
@@ -238,11 +260,11 @@
     \scalebox{0.7}{\input{py/week1/activity2PreClass.pgf}}
 
     \begin{subproblem}
-    \item Determine the object's maximum position between $t=0$ and
-      $t=4$ sec.
+    \item Determine the object's maximum displacement from its initial
+      position between $t=0$ and $t=4$ sec.
       \vfill
-    \item Determine the object's minimum position between $t=0$ and
-      $t=4$ sec.
+    \item Determine the object's minimum displacement from its initial
+      position between $t=0$ and $t=4$ sec.
       \vfill
     \end{subproblem}
 
@@ -254,13 +276,10 @@
   velocity for each time is given in the table below: \\
   \begin{tabular}{l|l}
     Time (sec.) & Velocity (m/sec) \\ \hline
-    0.0  & 0.0 \\
-    0.25 & 1.0 \\
-    0.50 & 2.0 \\
-    0.75 & 1.0 \\
-    1.00 & 0.0 \\
-    1.25 & -1.0 \\
-    1.50 & -2.0
+    0.0  &  0.0 \\
+    0.25 &  1.0 \\
+    0.50 &  2.0 \\
+    0.75 & -1.0 \\
   \end{tabular}
 
   \begin{subproblem}
@@ -274,7 +293,7 @@
     \scalebox{0.7}{\input{py/week1/table1graph_day2.pgf}}
 
   \item Determine the total change in the object's position from $t=0s$
-    to $t=1.75$.
+    to $t=1.0$.
 
     \vfill
 
@@ -418,13 +437,13 @@ then the average rate of change is positive.
 
       \clearpage
 
-    \item How do the signs (+/-) of the results compare between the
+    \item How do the signs (+/-) of the slopes compare between the
       two exercises? Why are they different?
 
       \vfill
 
     \item What is happening to the numbers as the time span between
-      points decreases?
+      the points decreases?
 
       \vfill
 
@@ -462,7 +481,7 @@ then the average rate of change is positive.
 
       \vfill
 
-    \item Add a second column to the table, and determine the average
+    \item Add another column to the table, and determine the average
       rate of change between $t=1$ and the time for each row.
 
     \end{subproblem}
@@ -521,16 +540,14 @@ then the average rate of change is positive.
 %========================================================================
 \preClass{Polynomial Functions}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-3}
+
 \begin{problem}
 \item A function is defined to be
   \begin{eqnarray*}
     f(t) & = & t^2 + t.
   \end{eqnarray*}
   \begin{subproblem}
-  \item Determine the value of the function at $t=1$.
-    \vfill
-  \item Determine the value of the function at $t=2$.
-    \vfill
   \item Determine the value of the function when $t=a+h$. Expand the
     squared term by foiling out the value and then simplify the
     result.
@@ -538,11 +555,14 @@ then the average rate of change is positive.
   \item Determine the value of $f(a+h)-f(a)$ using the previous
     result.
     \vfill
+  \item Use the previous result to calculate the average rate of
+    change of $f(t)$ from $t=a$ to $t=a+h$.
+    \vfill
   \end{subproblem}
 
   \clearpage
 
-\item Use the axes below to graph the functions as requested.
+\item Use the axes below to graph the functions given below.
 
   \sideNote{Pay careful attention to the scales on the different axes.}
   \scalebox{0.7}{\input{py/week1/compareLinearQuadraditic_day3.pgf}}
@@ -566,7 +586,7 @@ then the average rate of change is positive.
 
 \actTitle{Functions Defined by Algebraic Expressions}
 \begin{problem}
-\item Use the axes below to graph the functions as requested.
+\item Use the following axes to graph the functions described below.
 
   \scalebox{0.7}{\input{py/week1/compareLinearQuadraditic_day3.pgf}}
 
@@ -600,20 +620,19 @@ then the average rate of change is positive.
   \scalebox{0.7}{\input{py/week1/averageRateChange_day3.pgf}}
 
   \begin{subproblem}
-    \item Draw the secant lines that go through the function from
-      $t=1.0$ to $t=3.0$, then from $t=2.0$ to $t=3.0$, from
-      $t=2.5$ to $t=3.0$, and then from $t=2.75$ to $t=3.0$.
-    \item Calculate the values of the slope of each of the secant
-      lines using the definition of the position above.
-
-      \begin{tabular}{l|l|l|l}
-        $t$ & $h$   & $x(t)-x(t-h)$ & $\frac{x(t)-x(t-h)}{h}$ \\ \hline
-        3.0 & 2.0   & & \\ [15pt]
-        3.0 & 1.0   & & \\ [15pt]
-        3.0 & 0.5   & & \\ [15pt]
-        3.0 & 0.25  & & \\ [15pt]
-        3.0 & 0.125 & & \\ [15pt]
-      \end{tabular}
+  \item Draw the secant line that go through the function from $t=1.0$
+    to $t=3.0$, then the secant line from $t=2.0$ to $t=3.0$, from
+    $t=2.5$ to $t=3.0$, and then from $t=2.75$ to $t=3.0$.
+  \item Calculate the values of the slope of each of the secant lines
+    using the definition of the position above. \\
+    \begin{tabular}{l|l|l|l}
+      $t$ & $h$   & $x(t)-x(t-h)$ & $\frac{x(t)-x(t-h)}{h}$ \\ \hline
+      3.0 & 2.0   & & \\ [15pt]
+      3.0 & 1.0   & & \\ [15pt]
+      3.0 & 0.5   & & \\ [15pt]
+      3.0 & 0.25  & & \\ [15pt]
+      3.0 & 0.125 & & \\ [15pt]
+    \end{tabular}
 
     \item What is happening to the numbers for the average rate of change?
 
@@ -685,32 +704,33 @@ then the average rate of change is positive.
   \item
   \end{itemize}
 
-\item Use the function $f(t)=t^n$ to answer the questions below.
+\item Use the function $f_n(t)=t^n$ to answer the questions below.
 
   \scalebox{0.7}{\input{py/week1/compareQuadraditicCubic_day3.pgf}}
 
   \begin{subproblem}
-  \item Make a sketch of the function $f(t)$ when $n=1,~2,~3$.
-  \item Briefly describe what happens for the different values of
-    $n$. Discuss the trend as $n$ goes from one and increases.
+  \item Make a sketch of the graphs of the functions $f_n(t)$ for
+    $n=1,~2,~3$.
+  \item Briefly describe the trend for the different values of
+    $n$. What happens as $n$ gets larger?
     \vfill
-  \item What happens to the plot if $n$ is negative?
+  \item How does the graph change for negative vales of  $n$?
     \vfill
   \end{subproblem}
 
 \clearpage
 
-\item For the following question use $f(t)=t^2$ and $g(t)=t^3$.
+\item For the following questions use $f(t)=t^2$ and $g(t)=t^3$.
   \begin{subproblem}
-  \item Make a rough sketch of the function $g(t)-f(t)$.  \sideNote{
-      Be sure to label your axes and label all important points on
-      your graph.}
+  \item Make a rough sketch of the graph of the function $g(t)-f(t)$.
+    \sideNote{ Be sure to label your axes and label all important
+      points on your graph.}
 
     \vfill
 
-  \item Make a rough sketch of the function $g(t)-2f(t)$.  \sideNote{
-      Be sure to label your axes and label all important points on
-      your graph.}
+  \item Make a rough sketch of the graph of the function $g(t)-2f(t)$.
+    \sideNote{ Be sure to label your axes and label all important
+      points on your graph.}
 
     \vfill
 
@@ -725,14 +745,14 @@ then the average rate of change is positive.
   \clearpage
 
 
-\item Use the function $f(t)=c t^2$ and $g(t)=t^3$ to answer the
+\item Use the functions $f(t)=c t^2$ and $g(t)=t^3$ to answer the
   questions below.
 
   \scalebox{0.7}{\input{py/week1/compareQuadraditicCubic_day3.pgf}}
 
   \begin{subproblem}
-  \item Make a sketch of the function $f(t)$ and then $g(t)$
-    using different values of $c=0.5,~1.0,~2.0$.
+  \item Make a sketch of the graph of the function $f(t)$ and then
+    $g(t)$ using different values of $c=0.5,~1.0,~2.0$.
   \item Determine where the graphs of the quadratic function crosses the
     cubic function and mark the time on your plot.
     \clearpage
@@ -761,8 +781,11 @@ then the average rate of change is positive.
 %========================================================================
 \preClass{Total Change and Average Rate of Change}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-4}
+
 \begin{problem}
-\item Expand each of the following expressions:
+\item Expand each of the following expressions.
+  \sideNote{FOIL the expressions.} 
   \begin{subproblem}
     \item $(t+3)^2$
       \vfill
@@ -778,10 +801,10 @@ then the average rate of change is positive.
 
 \actTitle{Average Rate of Change}
 \begin{problem}
-  \item The following questions refer to the function $f(t)=3t$.
-    The goal is to determine the average rate of change between
-    two arbitrary points on the function and examine what happens
-    as the two points get close together.
+\item The following questions refer to the function $f(t)=3t$.  The
+  goal is to determine the average rate of change between any two
+  points on the graph of the function and examine what happens as the
+  two points get close together.
     \begin{subproblem}
       \item  Make a sketch of the function. Mark two points on the
         graph and sketch the secant line through the two points.
@@ -810,9 +833,10 @@ then the average rate of change is positive.
 
   \item The following questions refer to the function $g(t)=t^2$.
     \begin{subproblem}
-      \item  Make a sketch of the function. Mark two points on the
-        graph and sketch the secant line through the two points.
-        \vfill
+    \item Make a sketch of the function. Mark two points on the graph
+      for positive values of $t$ and sketch the secant line through
+      the two points.
+      \vfill
       \item What do you think will be the slope of the secant line
         between any two points? Will the slope be positive or negative?
         \vspace{1em}
@@ -854,7 +878,7 @@ then the average rate of change is positive.
         \begin{eqnarray*}
           \frac{x(t+h)-x(t)}{h} & = & \hskip \textwidth
         \end{eqnarray*}
-        \vfill
+        \vspace{1em}
         \item Multiply the top and bottom of the previous expression
           by the "conjugate," ${\displaystyle \sqrt{t+h}+\sqrt{t}}$.
           Expand and then simplify the result.
@@ -946,6 +970,8 @@ then the average rate of change is positive.
 %=========================================================================
 \preClass{Graphical View of Kinematics}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-5}
+  
 \begin{problem}
   \item The plot of an object's velocity is given below. The object
     can either move left (-) or right (+).
@@ -955,11 +981,13 @@ then the average rate of change is positive.
   \scalebox{0.7 }{\input{py/week2/velocityPlot_week2Day3.pgf}}
 
     \begin {subproblem}
-      \item Briefly describe what is happening with the velocity.
+      \item Provide a brief description of the velocity of the object
+        including how the velocity is changing.
         \vfill
 
-      \item Briefly describe the motion of the object. (When is it
-        moving to the left and when is it moving to the right?)
+      \item Briefly describe how the position of the object is
+        changing. (When is it moving to the left and when is it moving
+        to the right?)
         \vfill
 
       \item Make a sketch of the object's position using the axes above.
@@ -978,9 +1006,10 @@ then the average rate of change is positive.
     \scalebox{0.8}{\input{py/week2/velocityPlot_Class_1_week2Day3.pgf}}
 
     \begin{subproblem}
-    \item Briefly describe the motion of the object.
+    \item Briefly describe how the object's position changes.
       \vfill
-    \item Make a sketch of the object's position.
+    \item Add a sketch of the object's position to the appropriate
+      axis above.
     \end{subproblem}
 
     \clearpage
@@ -991,11 +1020,12 @@ then the average rate of change is positive.
 
       \scalebox{0.8}{\input{py/week2/velocityPlot_Class_2_week2Day3.pgf}}
 
-      \begin{subproblem}
-      \item Briefly describe the motion of the object.
-        \vfill
-      \item Make a sketch of the object's position.
-      \end{subproblem}
+    \begin{subproblem}
+    \item Briefly describe how the object's position changes.
+      \vfill
+    \item Add a sketch of the object's position to the appropriate
+      axis above.
+    \end{subproblem}
 
     \clearpage
 
@@ -1005,35 +1035,36 @@ then the average rate of change is positive.
 
       \scalebox{0.8}{\input{py/week2/velocityPlot_Class_3_week2Day3.pgf}}
 
-      \begin{subproblem}
-      \item Briefly describe the motion of the object.
-        \vfill
-      \item Make a sketch of the object's position.
-      \end{subproblem}
+    \begin{subproblem}
+    \item Briefly describe how the object's position changes.
+      \vfill
+    \item Add a sketch of the object's position to the appropriate
+      axis above.
+    \end{subproblem}
 
     \clearpage
 
   \item A sketch of the velocity of an object is given below. Make a
-    sketch of the position. Assume that the object starts at $x=-1$m
-    at $t=0$.
+    sketch of the object's position. Assume that the object starts at
+    $x=-1$m at $t=0$.
 
     \scalebox{0.8}{\input{py/week2/vel2Pos_introDerivLimit.pgf}}
 
     \begin{subproblem}
     \item What value does the velocity of the object get close to as
-      the time moves from $t=3.5$ and gets closer to $t=4$ seconds?
+      the time goes from $t=3.5$ and gets closer to $t=4$ seconds?
     \end{subproblem}
 
     \clearpage
 
-    \item A sketch of the velocity of an object is given below.
+    \item A sketch of the position of an object is given below.
       Make a sketch of the velocity of the object.
 
       \scalebox{0.8}{\input{py/week2/velocityPlot_Class_4_week2Day3.pgf}}
 
       \begin{subproblem}
       \item What is the object's initial position?
-      \item Briefly describe the motion of the object.
+      \item Briefly describe how the object's position and velocity changes.
         \vfill
       \item Make a sketch of the object's velocity.
       \end{subproblem}
@@ -1048,7 +1079,7 @@ then the average rate of change is positive.
 
       \begin{subproblem}
       \item What is the object's initial position?
-      \item Briefly describe the motion of the object.
+      \item Briefly describe how the object's position and velocity changes.
         \vfill
       \item Make a sketch of the object's velocity.
       \end{subproblem}
@@ -1104,22 +1135,27 @@ then the average rate of change is positive.
 %=========================================================================
 \preClass{Derivatives of Polynomials}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-6}
+
 \begin{problem}
 \item The graph of the position of an object is given below.
 
   \scalebox{0.6}{\input{py/week2/sketchSlope_week2Day2.pgf}}
 
   \begin{subproblem}
-  \item Sketch the tangent lines at $t=1$, $t=2$, and $t=3$.
-  \item Make a \textbf{rough} approximation of the slope of the tangent line.
+  \item Sketch the tangent lines to the graph of the function at
+    $t=1$, $t=2$, and $t=3$.
+  \item Make a \textbf{rough} approximation of the slope of the tangent lines.
     \begin{itemize}
     \item slope at $t=1$:
     \item slope at $t=2$:
     \item slope at $t=3$:
     \end{itemize}
-  \item Determine the values of $t$ where the slope of the tangent line is positive.
+  \item Determine the values of $t$ where the slope of the tangent
+    lines are positive.
     \vfill
-  \item Determine the values of $t$ where the slope of the tangent line is negative.
+  \item Determine the values of $t$ where the slopes of the tangent
+    line are negative.
     \vfill
   \end{subproblem}
 
@@ -1144,21 +1180,20 @@ then the average rate of change is positive.
 
 
   \begin{subproblem}
-  \item When is the position at a maximum? What is the behaviour of
-    the velocity at that time?
-    \sideNote{Describe what happens to the velocity as it goes from a
-      time just before when the maximum occurs to a time just after
-      when the maximum occurs.}
-    \vspace{3em}
+  \item When does the position reach a maximum value? What is the
+    behaviour of the velocity at that time?  \sideNote{Describe what
+      happens to the velocity as it goes from a time just before when
+      the maximum occurs to a time just after when the maximum
+      occurs.}  \vspace{3em}
   \item Given a constant velocity, $v=1.0$ m/sec., from $t=1$ to $t=2$
-    find the \textbf{change in position}.
+    find the corresponding \textbf{change in position}.
     \vfill
-  \item Given a constant velocity, $\bar{v}$, from $t=a$ to $t=b$ find
-    a formula for the \textbf{change in position}.
+  \item Assuming a constant velocity, $\bar{v}$, from $t=a$ to $t=b$
+    find a formula for the corresponding \textbf{change in position}.
     \vfill
   \end{subproblem}
 
-\item The velocity of an object is
+\item An object's velocity is given by
   \begin{eqnarray}
     \label{eqn:parabolicVelOne}
     v(t) & = & t^2 - 4t, ~ \mathrm{m/sec.},
@@ -1167,20 +1202,18 @@ then the average rate of change is positive.
 
   \begin{subproblem}
   \item Make a sketch of the plot of the velocity.  Based on your plot
-    of the velocity make a sketch of the position under the velocity
-    plot. Assume that the object starts at $x=1$m.
-    \sideNote{ Be sure to label your axes and label all important
-      points on your graph.}
+    of the velocity make a sketch of the position directly under the
+    velocity plot. Assume that the object starts at $x=1$m when $t=0$
+    seconds.  \sideNote{ Be sure to label your axes and label all
+      important points on your graph.}
 
     \vfill
 
   \item Find a function whose derivative is equal to the velocity
-    given in equation \ref{eqn:parabolicVelOne} and has the appropriate
-    value at $t=0$.
+    given in equation \ref{eqn:parabolicVelOne} and has a value of
+    $1$m at $t=0$.
 
-    \vspace{3em}
-
-    \vspace{3em}
+    \vspace{6em}
 
   \item Make a sketch of the function you found in the previous
     question on the position plot that you made above.

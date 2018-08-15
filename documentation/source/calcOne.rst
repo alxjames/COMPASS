@@ -1,0 +1,741 @@
+
+
+Calculus One
+====================
+
+The calculus one topics focus on how to quantify change. They include
+the following:
+
+* Average Rate of Change
+* Instantaneous Rate of Change
+
+	* The Limit
+	* The Definition of the Derivative
+	* Derivative Rules
+
+* Change Over An Interval
+
+	* The Mean Value Theorem
+	* Increasing/Decreasing Over an Interval
+		
+* Total Change
+
+	* Total Change
+	* Riemann Sums
+	* The Definite Integral
+	* The Fundamental Theorem of Calculus
+
+The goals for each day are given below.
+
+Kinematics
+------------
+
+Goals for activity  1
+^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine if the change in position is positive or negative given
+	the velocity.
+
+* Make rough sketches of the position given piecewise constant
+	velocities.
+
+* Relate how the sign of the velocity impacts the change in position.
+
+* Given a piecewise linear position determine the velocity of an
+	object.
+
+* Calculate estimates for the change in position given the velocity
+	over a given set of time intervals.
+
+* Sketch a plot of the graph of the position or the velocity given a
+	written description of a situation.
+
+
+Goals for activity  2
+^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the displacement of an object given its velocity.
+
+* Identify the difference between distance an object travels and the
+	object's displacement from a given position.
+
+* Determine local minimums and maximums of an object's displacement
+	given the velocity.
+
+* Identify that local minimum and maximums occur when an object's
+	velocity changes sign.
+
+* Be able to calculate the average rate of change of a function over a
+	given interval.
+
+* Identify the difference between total change and average rate of
+	change.
+
+* Determine the displacement over a time interval given the average
+	rate of change.
+
+* Determine whether or not displacement is negative or positive given
+	the average rate of change.
+
+* Determine  whether or not the average rate of change is positive or
+	negative given the displacement.
+
+* Relate the average rate of change with the slope of the secant line.
+
+* Determine a sequence of average rates of changes over smaller
+	intervals chosen by the student.
+
+
+Goals for activity  3
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Compute the average rate of change of a function over an arbitary
+	interval.
+
+* Construct a sequence of intervals whose width gets close to zero and
+	approximate the average rate of change over each interval.
+
+* State the difference between the total change and average rate of
+	change over an interval.
+
+* Demonstrate that the average rate of change gets close to a specific
+	value for a low order polynomial when the width of the interval gets
+	closer to zero.
+
+* Calculate the instantaneous rate of change of a low order polynomial
+	at an arbitrary value of time.
+
+* Identify the relationship between the instantaneous rate of change
+	and the slope of the tangent line.
+
+
+Goals for activity  4
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the derivative of a low order polynomial using the
+	definition of the derivative.
+
+* Determine the derivative of the square root using the definition of
+	the derivative and the conjugate of the numerator.
+
+* Determine the slope of the tangent line of a low order polynomial.
+
+
+Goals for activity  5
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Make a rough sketch of an object's position given the graph of its velocity.
+
+* Make a rough sketch of an object's velocity given the graph of its
+	position.
+
+* Recognize that an object's position decreases when the velocity is
+	negative.
+
+* Recognize that an object's position increases then the velocity is
+	positive.
+
+* Recognize that a constant velocity results in a linear position
+	graph.
+
+* Identify local minima and maxima based on the change in sign of the
+	velocity.
+
+* Explain why knowing that the velocity is zero does not necessarily
+	imply that the position is at a local minimum or local maximum.
+
+* Recognize that if you are given the velocity you need to be given
+	the position at one point in order to reconstruct the position of an
+	object. 
+
+
+
+Goals for activity  6
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Use the power rool to determine the derivative of a function.
+
+* Use the poer rule to determine the anti-derivative of a function.
+
+* Recognize that the anti-derivative cannot be uniquely determined.
+
+* Determine the anti-derivative of a function given one value of the
+	anti-derivative at a pre-determined point. (Solve for the constant
+	that results from determining the anti-derivative.)
+
+
+Newton's Second Law
+-----------------------
+
+
+Goals for activity  7
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the acceleration of an object given its position.
+
+* Determine the position of an object given its acceleration, initial
+	velocity, and initial position.
+
+* Make a sketch of the free body diagram of an object when the forces
+	are in simple orientations such as along the primary axes.
+
+* Derive the equation of motion for an object using Newton's Second
+	Law.
+
+* Determine the displacement of an object given its acceleration and
+	initial velocity.
+
+
+Goals for activity  8
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the position of an object given a piecewise defined
+	velocity and an initial position.
+
+* Determine when the local minima or local maxima occur for the position
+	function given a velocity function based on where the velocity
+	changes signs.
+
+* Given a simple constrained maximization problem, make a sketch of
+	the constraint.
+
+* Given a simple constrained maximization problem, make a sketch of
+	the family of costs functions.
+
+* Given a simple constrained maximization problem determine the
+	solution graphically by examining the constraint and a family of
+	solutions to the cost function and estimating where the cost
+	function touches the constraint at a single point.
+
+
+Goals for activity  9
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the position of an object given the forces acting on it
+	and the necessary initial conditions.
+
+* Determine the position of an object given the forces acting on it
+	and the necessary initial conditions where the forces are piecewise
+	defined, nonconstant functions.
+
+
+Goals for activity  10
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the inverse of a function given the function in tabular,
+	graphical, or algebraic form.
+
+* Derive the product rule for differentiation.
+
+* Use the product rule to determine the derivative of the product of
+	two functions.
+
+* Use the product rule to determine the derivative of the product of
+	more than two functions.
+
+Goals for activity  11
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Evaluate the composition of two functions given the functions in
+	tabular, graphical, or algebraic forms.
+
+* Derive the chain rule for differentiation.
+
+* Use the chain rule to determine the derivative of the composition of
+	two functions.
+
+* Use the chain rule and the product rule to determine the derivative
+	of functions that are products and compositions of multiple
+	functions.
+
+
+Goals for activity  12
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the derivative of relationships using implicit
+	differentiation.
+
+* Determine the equation of the tangent line to relationships that are
+	not functions using implicit differentiation.
+
+
+        
+Goals for activity  13
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the parameterized path for objects moving in a straight line.
+
+* Determine the parameterized path for objects moving along a circle.
+
+* Determine the velocity of an object given its parameterized path as a function of time.
+
+* Determine a vector tangent to the graph of a parameterized path
+  given the formula for the path as a function of time.
+
+
+
+Goals for activity  14
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Calculate the factorial of any positive integer.
+
+* Derive the differential equation for the velocity of an object where
+  the only forces acting on the object are air friction and a possible
+  normal force.
+
+* Derive the average and instantaneous rates of change for a simple
+  exponential function.
+
+* Provide a numerical argument as to why the derivative of $e^t$ is $e^t$.
+
+* Recognize that $e$ is a number and is approximately 2.718.
+
+* Determine the derivative of a simple exponential function when the base is $e$.
+
+* Recognize that polynomial functions do not grow as fast as
+  exponential functions with positive rates.
+
+* Recognize that simple exponential functions can either decay or
+  grow, and correctly draw the basic shape of the graph of a simple
+  exponential function.
+
+
+
+Goals for activity  15
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the inverse of a simple exponential function.
+
+* Show that the derivative of :math:`\ln(t)` is :math:`\frac{1}{t}`.
+
+* Determine the anti-derivative of :math:`\frac{1}{t}`.
+
+* Use the chain rule to determine the anti-derivative of
+  :math:`\frac{f'(t)}{f(t)}` where :math:`f(t)` is a differential
+  function and not zero.
+
+* Perform basic algebraic manipulations of exponential and logarithmic
+  functions.
+
+
+Goals for activity  16
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Derive the equations of motion for a moving object taking into
+  consideration air friction.
+
+* Determine a solution to a simple linear differential equation using
+  an appropriate guess for the general form of the solution.
+
+* Determine a solution to a simple linear differential equation using
+  the method of separation of variables.
+
+
+Goals for activity  17
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Approximate the solution to a given constrained optimization problem
+  graphically.
+
+* Determine the solution to a given constrained optimization problem
+  analytically.
+
+* Derive the constraint and cost function for a constrained
+  optimization problem given in a written form.
+
+
+Goals for activity  18
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Sketch the graph of the derivative of the sine and the cosine
+  function given a graph of the original function.
+
+* Provide an argument that the derivative of the sine function is the
+  cosine function based on the graphs of the functions.
+
+* Provide an argument that the derivative of the cosine function is
+  the negative sine function based on the graphs of the functions.
+
+* Provide an argument that the derivative of the sine function is the
+  cosine function based on numerical approximations of the limit
+  definition of the derivative.
+
+* Provide an argument that the derivative of the cosine function is
+  the negative cosine function based on numerical approximations of
+  the limit definition of the derivative.
+
+
+Goals for activity  19
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine vector components in the *x* and *y* directions given the
+  magnitude and an angle associated with a vector.
+
+* Derive the equations of motion for an object when one of the forces
+  is rotating at a constant rate.
+
+* Determine the anti-derivative of a general sine or cosine function
+  both graphically and analytically.
+
+* Determine the anti-derivative of a general sine or cosine function.
+
+* Determine the position of an object given an acceleration with a
+  general since or cosine function and given the initial position and
+  velocity of the object.
+
+* Determine the derivative of any function that includes powers,
+  exponentials, logarithms, or trigonometric functions using the power
+  rule, product rule, and/or the chain rule.
+
+
+Work/Energy
+-----------------------
+
+
+Goals for activity  20
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Given a physical situation discretize the motion in time by breaking
+  the time up into discrete intervals.
+
+* Construct a sum that represents an approximation to the motion of an
+  object after discretizing the movement in time.
+
+
+Goals for activity  21
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Construct a Riemann sum to approximate the work done on an object
+  given the force as a function of its position.
+
+* Determine if an approximation for the work will be high or low given
+  the graph of the force as a function of its position.
+
+* Use correct notation to express the Riemann sum representing the
+  approximation of the work done on an object given the force as a
+  function of its position for an arbitrary number of intervals.
+
+* Recognize that increasing the number of intervals for a Riemann sum
+  will result in a better approximation of the work done on an object.
+
+
+Fundamental Theorem of Calculus
+---------------------------------
+
+
+Goals for activity  22
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Use Riemann sums to construct an approximation for the signed area
+  under a curve given the function, an interval, and the number of
+  sub-intervals.
+
+* Determine an approximation for the displacement of an object over a
+  given time interval using Riemann sums given the velocity of the
+  object.
+
+* Use correct notation to express the Riemann sum used to approximate
+  the displacement of an object given its velocity and an arbitrary
+  number of sub-intervals.
+
+
+Goals for activity  23
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Recognize the relationship between the signed area function and the integral notation.
+
+* Determine an exact analytic value for a simple definite integral.
+
+* Use *u*-substitution to determine the general anti-derivative of a function.
+
+
+
+Goals for activity  24
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the change in momentum of an object given formulas for the
+  forces as functions of time.
+
+* Derive the impulse-momentum theorem from Newton's Second Law.
+
+* Determine the work done by a force given the force as a function of
+  the object's position.
+
+
+
+Goals for activity  25
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the area between to curves.
+
+* Determine the mass of an two dimensional object given its density
+  and the bounds on the object. (Students should be able to derive
+  integrals in either the horizontal or vertical directions.)
+
+
+
+Goals for activity  26
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the density of a one dimensional object whose density
+  varies.
+
+* Determine the first moment of a one dimensional object whose density
+  varies.
+
+* Determine the center of mass of a one dimensional object whose
+  density varies.
+
+* Given a two dimensional object with a description of the bounds the
+    student should be able to do the following:
+
+  * Sketch a picture of the object.
+
+  * Estimate the center of mass from the graphical depiction.
+
+  * Determine the center of mass analytically.
+
+
+Goals for activity  27
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Draw a free body diagram for an object with multiple forces acting in two dimensions.
+
+* Determine the differential equations describing the motion of an
+  object with forces acting in two dimensions.
+
+* Construct an approximation to the solution of a differential
+  equation by dividing the time in to sub-intervals and constructing a
+  Riemann sum to determine the change in momentum of the object.
+
+* Use the approximation to estimate the work done by a force on an
+  object.
+
+Goals for activity  28
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Use the product and quotient rules to derive the derivative formulas
+  for all trigonometric functions based on the derivatives of the sine
+  and cosine functions.
+
+* Use the derivative rules for other trigonometric functions to
+  determine anti-derivatives. For example, students should be able to
+  determine the anti-derivative of :math:`\sec^2(t)`.
+
+
+Goals for activity  29
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the position of an object given an acceleration as a
+  function of time and appropriate initial conditions.
+
+* Evaluate the stability of a solution with respect to growth, decay,
+  and oscillatory behaviour.
+
+* For solutions that grow in time identify the growth rate based on
+  the dominant term in a solution.
+
+* For solutions that decay in time identify the decay rate based on
+  the dominant term in a solution.
+
+* Use Newton's Second Law to derive the differential equation
+  describing the motion of a spring-mass system without friction.
+
+* Determine the position of an object that is part of a spring-mass
+  system without friction given appropriate initial conditions.
+
+
+Goals for activity  30
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Use Newton's Second Law to derive the differential equation
+  describing the motion of a spring-mass system without friction where
+  some parameters for the system are not explicitly defined
+  numerically.
+
+* Based on a written description of a spring-mass system without
+  friction, determine the cost function and constraint associated with
+  the system.
+
+
+Goals for activity  31
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Recognize that the linearization of a function and the tangent line
+  at the same point are the same functions.
+
+* Determine the linearization of a given function at a point.
+
+* Use the linearization of a function at a point to construct an
+  approximation to the original function at a nearby point.
+
+* Use a coherent strategy to determine which point to use for a
+  linearization based on the context of a written question.
+
+* Convert an expression into an equivalent root finding problem.
+
+* Use the linearization to approximate the zero of a function.
+
+
+Goals for activity  32
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Calculate the dot product of two vectors.
+
+* Derive the formula for the dot product.
+
+Goals for activity  33
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Calculate the cross product of two vectors.
+
+* Derive the formula for the cross product.
+
+
+Goals for activity  34
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the formula for the path of an object moving around a
+  circle of a given radius centered at the origin.
+
+* Determine the angular velocity of an object moving in a circle given
+  the formula for the path as a function of time.
+
+* Determine the speed and acceleration of an object moving in a circle
+  given the formula for the path as a function of time.
+
+
+Goals for activity  35
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the center of mass of a one-dimensional rod whose density
+  is given as a function of position along the rod.
+
+* Determine the moment of inertia of a one-dimensional rod whose
+  density is given as a function of position along the rod.
+
+
+Goals for activity  36
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Determine the tangent vector given a formula for an object's
+  position that is moving along a circle of a given radius centered at
+  the origin.
+
+* Determine the general formula for the kinetic energy of an object
+  moving along a circle with a constant angular velocity.
+
+* Show that the velocity and position vectors for an object moving
+  along a circle with a constant angular velocity are perpendicular.
+
+
+
+Goals for activity  37
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Show that if an object is moving around a circle with a constant
+  angular velocity then
+  :math:`\|\vec{a}\|=\frac{\|\vec{v}\|^2}{\|\vec{r}\|}`.
+
+* Show that if an object is moving around a circle with a constant
+  angular velocity then the acceleration is perpendicular to the
+  velocity vector and parallel to the position vector.
+
+* Show that if an object is moving around a circle but not at a
+  constant angular velocity then the identity
+  :math:`\|\vec{a}\|=\frac{\|\vec{v}\|^2}{\|\vec{r}\|}` is not
+  necessarily true.
+
+* Determine the angular and radial components of the acceleration for
+  an object that  is moving around a circle.
+
+
+
+Goals for activity  38
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Students should be able to do each of the following:
+
+* Define a limitation on the domain of a basic trigonometric function
+  that allows an inverse function to be defined on the restricted
+  domain.
+
+* Determine the derivative of the inverse of a basic trigonometric
+  function using implicit differentiation.
+
+* Derive the general relationship of the derivative of an inverse
+  function in terms of the original function.

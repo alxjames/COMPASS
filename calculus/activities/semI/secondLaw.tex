@@ -3,30 +3,36 @@
 %=========================================================================
 \preClass{Practicing the Anti-Derivative}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-7}
+
 \begin{problem}
 \item The acceleration of an object is
 \begin{eqnarray*}
-  a(t) & = & 0.05 t,
+  a(t) & = & 0.05 t ~~ \mathrm{m/sec\textsuperscript{2}}.
 \end{eqnarray*}
-and its initial velocity is zero and its initial position is $x(0)=0$m.
+The object's initial velocity is zero and its initial position is $x(0)=0$m.
   \begin{subproblem}
-  \item Determine the velocity by finding the anti-derivative of the acceleration.
-        Determine the value of the constant using the information about the
-        initial velocity.
+  \item Determine the object's velocity by finding the anti-derivative
+    of the acceleration.  Determine the value of the constant using
+    the information about the object's initial velocity.
+
     \vfill
-  \item Determine the position by finding the anti-derivative of the velocity.
-        Determine the value of the constant using the information about the
-        initial position.
+    
+  \item Determine the position of the object by finding the
+    anti-derivative of the velocity.  Determine the value of the
+    constant using the information about the object's initial position.
+        
     \vfill
   \end{subproblem}
 
   \clearpage
 
 \item A ball is dropped off of the top of a building that is 100m
-  tall. It is initially at rest when released. (Ignore friction.)
+  tall. The ball is initially at rest when released. (Ignore friction.)
   \begin{subproblem}
-    \item Make a rough sketch of the plot of the position of the ball
-      as a function of time. Clearly label your axes.
+  \item Make a rough sketch of what you think the graph of the ball's
+    position as a function of time will be. \sideNote{Clearly label
+      your axes.}
 
       \vfill
 
@@ -55,7 +61,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 \actTitle{The Relationship Between Velocity and Time}
 \begin{problem}
 
-\item A motorized car is placed at the end of a 100m field. The car
+\item A motorized car is placed at the end of a 100m track. The car
   has a mass of 2kg and starts from rest. When the switch is turned
   on, the force on the car due to the motor is
   \begin{eqnarray*}
@@ -63,9 +69,11 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
   \end{eqnarray*}
   (Ignore friction.)
   \begin{subproblem}
-    \item Make a rough sketch of the plot of the position of the car
-      as a function of time. Clearly label your axes.
+    \item Make a rough sketch of what you think the position of the car
+      as a function of time will be. Clearly label your axes.
+      
       \vfill
+      
     \item Make a sketch of the free body diagram.
       \vspace{7em}
     \item Determine the equation for the acceleration in the $x$-direction.
@@ -88,8 +96,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
   \clearpage
 
 \item The velocity of an object is
-  $\frac{3}{2}t^3-6t^2+\frac{11}{2}t$. Four different possible
-  positions of the object is shown in the plot below. \\
+  $\frac{3}{2}t^3-6t^2+\frac{11}{2}t$. The graphs of four different
+  possible positions of the object is shown in the plot below. \\
   \scalebox{0.6}{\input{py/week2/whichAntiderivative_week2Day3.pgf}}
   \begin{subproblem}
     \item Determine the formulas for each of the four positions.
@@ -111,17 +119,17 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 
   \clearpage
 
-\item The velocity for an object is given in the plot below. Assume
-  that it starts at the origin, $x=0$m.
+\item The graph of the velocity for an object is given in the plot
+  below. Assume that the object starts at the origin, $x=0$m.
 
   \scalebox{0.7}{\input{py/week2/noContDeriv_week2Day3.pgf}}
 
   \begin{subproblem}
-    \item Make a sketch of the position of the object.
+  \item Make a sketch of the graph of the position of the object.
     \item Determine the total change in the object's position.
       \vfill
     \item Determine the area under the velocity curve (between $v(t)=0$
-      and the curve).
+      and the curve) from $t=0$ to $t=4$ seconds.
       \sideNote{Determine the area using the area of the two triangles.}
       \vfill
     \item What is the derivative of the velocity at $t=2$ seconds?
@@ -176,18 +184,20 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 %=========================================================================
 \preClass{Average Rate of Change}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-8}
+
 \begin{problem}
-\item The velocity of an object is given in the plot
-  below. Assume that the object starts from the origin, $x=0$m. Make a
-  sketch of the object's position.
+\item The velocity of an object is given in the plot below. Assume
+  that the object starts from the origin, $x=0$m. Make a sketch of the
+  object's position.
 
   \scalebox{0.7}{\input{py/week3/preclass_week3day1.pgf}}
 
   \clearpage
 
-\item The velocity of an object is given in the plot
+\item The graph of the velocity of an object is given in the plot
   below. Assume that the object starts from the origin, $x=0$m. Make a
-  sketch of the object's position.
+  sketch of the graph of the object's position.
 
   \scalebox{0.7}{\input{py/week3/preclassTwo_week3day1.pgf}}
 
@@ -196,26 +206,27 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 
 \actTitle{The Relationship Between Velocity and Time}
 \begin{problem}
-\item The velocity of an object is given in the plot below. Assume
-  that the object starts from the origin, $x=0$m. \\
+\item The graph of the velocity of an object is given in the plot
+  below. Assume that the object starts from the origin, $x=0$m. \\
   \scalebox{0.7}{\input{py/week3/localMaxPiecewiseConstVel_week3day1.pgf}}
   \begin{subproblem}
-  \item Sketch a plot of the object's position as a function of time.
+  \item Sketch a plot of the graph of the object's position as a
+    function of time.
   \item When does the object's maximum displacement from its start
     position occur?
     \vspace{3em}
-  \item Briefly describe what is happening with the velocity where the
+  \item Briefly describe the behaviour of the velocity when the
     maximum occurs.
     \vfill
   \item When does the object's minimum displacement from its start
-    position occur?
+    position occur after $t=0$ seconds?
     \vspace{3em}
   \end{subproblem}
 
   \clearpage
 
-\item We will try to determine the value of $x$ and $y$ that will
-  accomplish the following:
+\item Estimate the values of $x$ and $y$ that will accomplish the
+  following requirements:
   \begin{eqnarray*}
     \mathrm{Minimize:} & & x^2 + y^2, \\
     \mathrm{Constraint:} & & x + y = 1.
@@ -228,7 +239,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 
   \begin{subproblem}
     \item Add a sketch of the constraint to the plot. The value of $x$
-      and $y$ that we choose must be on this line.
+      and $y$ that we choose must be a point on this line.
     \item Add a sketch of the set of points that satisfy
     \sideNote{Think about what the formula represents and draw the corresponding figure.}
       \begin{eqnarray*}
@@ -248,14 +259,14 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
       \end{eqnarray*}
     \item Draw the smallest circle that has points that coincides with
       the constraint.
-    \item What are the values of $x$ and $y$ that minimize the
-      objective function subject to the constraint?
+    \item Estimate the values of $x$ and $y$ that minimize the
+      objective function subject to the constraint.
   \end{subproblem}
 
   \clearpage
 
-\item We will try to determine the value of $x$ and $y$ that will
-  accomplish the following:
+\item Estimate the values of $x$ and $y$ that will accomplish the
+  following:
   \begin{eqnarray*}
     \mathrm{Minimize:} & & x + y, \\
     \mathrm{Constraint:} & & x^2 + y^2 = 1.
@@ -286,8 +297,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
     \item Draw the line consistent with the cost function that
       has points that coincides with the constraint, but the cost
       function takes on its smallest possible value.
-    \item What are the values of $x$ and $y$ that minimize the
-      objective function subject to the constraint?
+    \item Estimate the values of $x$ and $y$ that minimize the
+      objective function subject to the constraint.
   \end{subproblem}
 
   \clearpage
@@ -297,12 +308,13 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
   cost and the constraint functions where the cost is
   minimized/maximized but still satisfy the constraint?
 
-  \vspace{5em}
+  \vfill
 
 \item With respect to the questions \ref{optimizationMax} and
   \ref{optimizationMin}, how can you determine the values of $x$ and
   $y$ analytically?
 
+  \vfill
   \vfill
 
 
@@ -316,8 +328,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
   \item
   \item
   \end{itemize}
-\item The velocity of an object is given in the plot below. Assume
-  that the object starts from the origin, $x=0$m. \\
+\item The graph of the velocity of an object is given in the plot
+  below. Assume that the object starts from the origin, $x=0$m. \\
   \scalebox{0.7}{\input{py/week3/localMaxPiecewiseConstVelTwo_week3day1.pgf}}
   \begin{subproblem}
   \item Sketch a plot of the object's position as a function of time.
@@ -328,7 +340,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
     minimum occurs.
     \vfill
   \item When does the object's minimum displacement from its start
-    position occur?
+    position occur after $t=0$?
     \vspace{3em}
   \end{subproblem}
 
@@ -344,7 +356,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
   \item When does the object's maximum displacement from its start
     position occur?
     \vspace{3em}
-  \item Briefly describe what is happening with the velocity where the
+  \item Briefly describe the behaviour of the velocity when the
     minimum occurs.
     \vfill
   \end{subproblem}
@@ -352,7 +364,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 \clearpage
 
 \item An object will be fired from a cannon at ground level. It will
-  be fired at a velocity $v$ and at an angle $\theta$ from the
+  be fired at a velocity, $v$, at an angle $\theta$ from the
   horizontal ground.  The object should strike the ground a distance
   of 100 meters away. The goal is to minimize the total time from the
   start until the object strikes the ground.
@@ -400,6 +412,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 %=========================================================================
 \preClass{Non-Constant Acceleration}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-9}
+
 \begin{problem}
 \item For each acceleration given below determine the position at any
   time. In each case the initial velocity and position are given.
@@ -420,12 +434,11 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 \actTitle{Non-Constant Acceleration}
 \begin{problem}
 \item A new projectile will be tested. It is designed to propel itself
-  toward a target. To keep things simpler we assume that the force (N)
+  toward a target. To keep things simpler we assume that the force
   in the horizontal direction changes in time, but the force in the
   vertical direction is constant and is due to gravity.
   \begin{subproblem}
-    \item We assume that the force on the object in the horizontal
-      direction is
+  \item We assume that the force on the object (in Newtons) is
       \begin{eqnarray*}
         \vec{F}_x(t) & = & \left\{
                      \begin{array}{r@{\hspace{2em}}rcccl}
@@ -435,8 +448,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
                      \right.
       \end{eqnarray*}
       where $m$ is the mass of the projectile.  Make a sketch of the
-      force in the horizontal direction as a function of time from
-      $t=0$ to $t=1$ seconds.
+      graph of the force in the horizontal direction as a function of
+      time from $t=0$ to $t=1$ seconds.
 
       \vfill
 
@@ -450,10 +463,11 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 
       \clearpage
 
-    \item The object starts at the origin, $x=0$m and $y=0$m, and the
-      initial time, and the initial velocity is 10 m/sec in the
+    \item The projectile starts at the origin, $x=0$m and $y=0$m at
+      the initial time, and the initial velocity is 10 m/sec in the
       horizontal direction and 20 m/sec in the vertical
-      direction. Determine the equations for the position at any time.
+      direction. Determine the equations for the projectile's position
+      at any time.
 
       \vfill
 
@@ -465,8 +479,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
   itself. In this case the force changes in time in the vertical
   direction.
   \begin{subproblem}
-  \item We assume that the force on the object (N) in the vertical
-    direction is
+  \item We assume that the force on the object (in Newtons)  is
       \begin{eqnarray*}
         \vec{F}_y(t) & = & \left\{
                      \begin{array}{r@{\hspace{2em}}rcccl}
@@ -491,10 +504,11 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 
       \clearpage
 
-    \item The object starts at the origin, $x=0$m and $y=0$m, and the
-      initial time, and the initial velocity is 10 m/sec in the
+    \item The projectile starts at the origin, $x=0$m and $y=0$m at
+      the initial time, and the initial velocity is 10 m/sec in the
       horizontal direction and 20 m/sec in the vertical
-      direction. Determine the equations for the position at any time.
+      direction. Determine the equations for the projectile's position
+      at any time.
 
       \vfill
 
@@ -520,7 +534,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
   \begin{eqnarray*}
     \vec{F}_x(t) & = & m\cdot(bt) \vec{\imath}.
   \end{eqnarray*}
-  The parameters $b$ is a constant.
+  The parameter $b$ is a constant.
 
   \begin{subproblem}
     \item Draw a free body diagram of the car.
@@ -595,6 +609,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 %=========================================================================
 \preClass{The Inverse of a Function}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-10}
+
 \begin{problem}
 \item A function is defined in the following table:
 
@@ -619,7 +635,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 
 \clearpage
 
-\item The position of an object is given in the plot below.
+\item The graph of the position of an object is given in the plot
+  below.
 
   \scalebox{0.55}{\input{py/week4/simpleInverse_week4day1.pgf}}
 
@@ -745,7 +762,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
       \vfill
 
     \item To get the average rate of change divide the previous
-      expression by $\Delta t$ and break the expression into three terms.
+      expression by $\Delta t$ and break the expression into three
+      terms corresponding to the three areas.
 
       \vfill
 
@@ -811,8 +829,23 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
       \vfill
   \end{subproblem}
   \clearpage
-  \clearpage
 
+\item Given the product rule,
+  \begin{eqnarray*}
+    \frac{d}{dt} \left( f(t)\cdot g(t)\right) & = &
+          \left(\frac{d}{dt} f(t) \right) g(t) + f(t) \left( \frac{d}{dt} g(t) \right), 
+  \end{eqnarray*}
+  show that
+  \begin{eqnarray*}
+    \frac{d}{dt} \left( u(t)\cdot v(t) \cdot w(t) \right) & = &
+              \left(\frac{d}{dt} u(t) \right) v(t) w(t) +
+              u(t) \left( \frac{d}{dt} v(t) \right) w(t) +
+              u(t) v(t) \left( \frac{d}{dt} w(t) \right).
+  \end{eqnarray*}
+  (Hint: replace $f(t)$ with $u(t)$ in the definition above, and also
+  replace $g(t)$ with $v(t)\cdot w(t)$. Then apply the product rule
+  separately in succession.)
+  
 \item For each function below determine the value of the time given
   the height of the graph of the function. (Make a sketch of the plot
   of each function as well.)
@@ -841,6 +874,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 
 \preClass{Composition of Functions}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-11}
+
 \begin{problem}
 \item Two functions are defined in the following tables:
 
@@ -848,11 +883,11 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
     \begin{tabular}{l|ll@{\hspace{6em}}l|l}
       $t$ & $f(t)$ & & $t$ & $g(t)$ \\  \cline{1-2} \cline{4-5}
       0 &  3 & & -2 & 1 \\
-      1 &  1 & & -1 & 5 \\
-      2 & -1 & &  0 & 2 \\
-      3 &  4 & &  1 & 1 \\
-      4 & -3 & &  2 & 3 \\
-          &    & &  3 & 4
+      1 & -1 & & -1 & 5 \\
+      2 &  1 & &  0 & 2 \\
+      3 &  4 & &  1 & 3 \\
+      4 & -3 & &  2 & 1 \\
+          &  & &  3 & 4
     \end{tabular}
   \end{center}
 
@@ -861,9 +896,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
     \vfill
   \item What is the value of the function $g(f(t))$ when $t=0$?
     \vfill
-  \item What is the value of the function $f(g(t))$ when $t=3$?
-    \vfill
-  \item What is the value of the function $g(f(t))$ when $t=3$?
+  \item What is the value of the function $f(g(t+1))-f(g(t))$ when $t=2$?
     \vfill
   \end{subproblem}
 
@@ -879,9 +912,11 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
     \vfill
   \item What is the value of the function $g(f(t))$ when $t=-1$
     \vfill
-  \item What is the value of the function $f(g(t))$ when $t=1$
+  \item What is the value of the function $f(g(t))$ when $t=-2$
     \vfill
-  \item What is the value of the function $g(f(t))$ when $t=1$
+  \item What is the value of the function $f(g(t))$ when $t=-1$
+    \vfill
+  \item How can $f(g(t))$ be decreasing from $t=-2$ to $t=-1$?
     \vfill
   \end{subproblem}
 
@@ -914,16 +949,16 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
     function $f(g(t))$ from $t$ to $t+h$.
     \label{subproblem:arcChainRule}
     \vfill
-  \item What is the change in the input for the function $g$ in your
-    expression?
+  \item Using your expression above, what is the change in the values input into $g$?
     \sideNote{These should be the difference of two values.}
     \vspace{2em}
-  \item What is the change in the input for the function $f$ in your
-    expression?
+  \item Using your expression from part \ref{subproblem:arcChainRule},
+    what is the change in the values input into the function $f$?
+    \label{subproblem:changeInput}
     \vspace{2em}
   \item Rewrite the expression in part \ref{subproblem:arcChainRule}
     after multiplying and dividing by the change in the previous
-    expression.
+    expression, part \ref{subproblem:changeInput}.
     \sideNote{You need to multiply by one.}
     \vfill
   \end{subproblem}
@@ -987,6 +1022,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 %=========================================================================
 \preClass{Basic Trigonometry}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-12}
+
 \begin{problem}
 \item Determine the derivatives of each of the functions below:
 \begin{subproblem}
@@ -996,7 +1033,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
     \vfill
   \item ${\displaystyle \mathrm{Beth}(t)=\left(f(t)+1\right)^3}$
     where $f$ is a differentiable function.
-    \sideNote{The answer should be in terms of $f(t)$ and $f'(t)$.}
+    \sideNote{The answer should be in terms of both $f(t)$ and $f'(t)$.}
     \vfill
 \end{subproblem}
 \end{problem}
@@ -1025,9 +1062,12 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
     \begin{subproblem}
       \item  Take the derivative of both sides and expand the expression with $g(t)$ using the chain rule.
         \vfill
-      \item Use your previous expression and isolate $g'(t)$ to determine the derivative of $g(t)$.
+      \item Starting with your previous expression isolate $g'(t)$
+        using appropriate algebraic steps to determine an express for $g'(t)$.
         \vfill
-      \item Suppose that when $g(1)=\sqrt{3}$. Use this information to determine the value of $g'(1)$.
+      \item Suppose that $g(1)=\sqrt{3}$. Use this information to
+        determine the value of $g'(1)$.
+
         \vfill
     \end{subproblem}
 
@@ -1154,6 +1194,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 % Start of day for vectors and paths
 %=========================================================================
 \preClass{Vector Valued Functions}
+
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-13}
 
 \begin{problem}
 \item An object is located at $x=2$m and $y=-4$m at the initial time,
@@ -1317,6 +1359,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 %=========================================================================
 \preClass{The Exponential Function}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-14}
+
 \begin{problem}
 \item The factorial for an integer is defined to be
   \begin{eqnarray*}
@@ -1362,7 +1406,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 
   \item Make a sketch of what you think the position of the object
     should be as a function of time. (Just draw it based on
-    intuition.)
+    your intuition.)
 
     \vfill
   \end{subproblem}
@@ -1509,6 +1553,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 %=========================================================================
 \preClass{The Exponential Function}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-15}
+
 \begin{problem}
 \item Determine the derivatives of the following functions:
   \begin{subproblem}
@@ -1526,8 +1572,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 \clearpage
 
 \item We define the logarithm, $\ln(t)$, to be the inverse function of
-  the exponential.  Use your calculator to determine the values of the
-  following functions.
+  the exponential.  Use your calculator to determine approximations of
+  each of the following values.
   \begin{subproblem}
   \item $\ln\lp e^{2.5} \rp$.
     \vfill
@@ -1550,6 +1596,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 \item We define the function $f(t)=e^t$. The goal is to determine the
   derivative of the inverse of $f(t)$ which is defined to be $g(t)=\ln(t)$.
   \begin{subproblem}
+  \item What is $f'(t)$?
+    \vspace{2em}
   \item If the function $g(t)$ is the inverse of $f(t)$ then the following must be true:
     \begin{eqnarray*}
       t & = & f\lp\ln (t) \rp.
@@ -1560,9 +1608,9 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
     \vfill
   \item Solve the expression for the derivative of the logarithm.
     \vfill
-  \item What does this imply about the expression
+  \item Determine the value of 
   \begin{eqnarray*}
-    \frac{d}{dt} \ln\lp t \rp & = & \hspace{10em}.
+    \frac{d}{dt} \ln\lp t \rp & = & \hspace{5em}.
   \end{eqnarray*}
   \end{subproblem}
 
@@ -1584,6 +1632,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
   particular we want to examine ways to write the expression
   $e^a\cdot e^b$. For each question below, solve the relationships as
   requested.
+  \label{problem:exponenetialPropOne}
   \begin{subproblem}
   \item Use the properties of the exponential to represent the product
     $e^a\cdot e^b$ as a single exponential.
@@ -1616,6 +1665,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 \item We now examine another property with respect to raising a number
   to a power. In particular we look at the logarithm of $x^r$ where
   $r$ is a constant.
+  \label{problem:exponenetialPropTwo}
   \begin{subproblem}
   \item We can think of $x^r=\lp x \rp^r$. Substitute the identity
     $x=e^{\ln(x)}$ into the right hand side of the expression.
@@ -1647,6 +1697,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
   \item
   \item
   \end{itemize}
+\item Finish questions \ref{problem:exponenetialPropOne} and \ref{problem:exponenetialPropTwo}.
 \item Determine the following derivatives:
   \begin{subproblem}
     \item $\frac{d}{dt} e^{3t}$.
@@ -1697,8 +1748,10 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 %=========================================================================
 \preClass{Free Body Diagrams}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-16}
+
 \begin{problem}
-\item Determine the derivatives of the following equations.
+\item Determine the derivatives of the following functions.
   \begin{subproblem}
     \item $\ln\lp 5t-8\rp$.
       \vfill
@@ -1710,14 +1763,14 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 
   \clearpage
 
-\item An object whose mass is $m$ kg is fired upwards from the ground. The force of
-  friction can be approximated by assuming that it is proportional to
-  the velocity of the object.
+\item An object whose mass is $m$ kg is fired straight up from the
+  ground. The force of friction can be approximated by assuming that
+  it is proportional to the velocity of the object.
 
   \begin{subproblem}
   \item Make a sketch of the free body diagram while it is in the air.
     \vfill
-  \item Determine the equation for the acceleration in the $y$-direction.
+  \item Determine the equation for the total acceleration in the $y$-direction.
     \vfill
   \end{subproblem}
 
@@ -1789,8 +1842,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
       \frac{d}{dt} \ln\lp v(t) \rp.
     \end{eqnarray*}
     \vfill
-  \item Take the anti-derivative of both sides and determine the value
-    of $v(t)$.
+  \item Take the anti-derivative of both sides of the previous
+    equation and determine the value of $v(t)$.
     \sideNote{Do not forget the constant!}
     \vfill
   \end{subproblem}
@@ -1840,6 +1893,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 %=========================================================================
 \preClass{Optimization}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-17}
+
 \begin{problem}
 \item Graphically determine an estimate of the values of $x$ and $y$
   that achieve the following goals:
@@ -1847,7 +1902,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
     \mathrm{Minimize:}  & & x+y, \\
     \mathrm{Constraint:}  & & y - \frac{10}{x}  =  0.
   \end{eqnarray*}
-  The values of both $x$ and $y$ should be positive.
+  In this case, the values of both $x$ and $y$ should be positive.
+
   \vfill
 
 
@@ -1856,8 +1912,8 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 
 \actTitle{Determining Position With Friction}
 \begin{problem}
-  \item Analytically determine the values of $x$ and $y$ that achieve the
-    following goals:
+\item Analytically determine the values of $x$ and $y$ that satisfies
+  the following:
     \begin{eqnarray*}
       \mathrm{Minimize:} && x+y, \\
       \mathrm{Constraint:} && y - \frac{10}{x}  =  0.
@@ -1887,6 +1943,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 \item An object with a mass of 3kg moves to the right on a
   friction-less track. Assume that the air resistance is proportional
   to the speed of the object.
+  \label{problem:generalAirResistance}
   \begin{subproblem}
   \item Make a sketch of the free body diagram of the object.
 
@@ -1925,6 +1982,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
   \item
   \item
   \end{itemize}
+\item Complete question \ref{problem:generalAirResistance}.
   \clearpage
 
 \item You are asked to construct a system that will propel a 3kg
@@ -1965,10 +2023,12 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 %=========================================================================
 \preClass{Velocity and Time}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-18}
+
 \begin{problem}
 \item A cart is designed so it can only move left and right. A fan is
-  mounted on the cart at an angle, $\alpha$. The cart has a mass of 5
-  kg, and the fan exerts a constant force of 2N. Assume that
+  mounted on the cart with a fixed angle, $\alpha$. The cart has a
+  mass of 5 kg, and the fan exerts a constant force of 2N. Assume that
   $\alpha=\frac{\pi}{6}$ and ignore the friction due to the air moving
   over the cart.  \\
   \includegraphics[width=9cm]{ink/week6/airCart}
@@ -2032,21 +2092,31 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
   \clearpage
 
 \item We will examine an approximation of the derivative of $\sin(t)$
-  at $t=0$.  Recall the definition of the derivative
+  at $t=0$.  Recall the limit definition of the derivative is
   \begin{eqnarray*}
     \frac{d}{dt} v_x(t) & = & \lim_{\Delta t \rightarrow 0}
                               \frac{v_x(t+\Delta t) - v_x(t)}{\Delta t}.
   \end{eqnarray*}
   \begin{subproblem}
-  \item Suppose that $v_x(t)=\sin(t)$. Use the limit notation to
+  \item Suppose that $v_x(t)=\sin(t)$. Use the limit definition to
     define the derivative of $\sin(t)$ at $t=0$.
     \vspace{6em}
+    
   \item Make an approximation of the derivative for specific values of
-    $\Delta t$ where $\Delta t_n=\frac{1}{2^n}$. Make a sketch of the
-    plot of the approximations for $n=1,~2,~3,\ldots$. What is the
-    derivative of $\sin(t)$ at $t=0$?
+    $\Delta t$ where $\Delta t_n=\frac{1}{2^n}$. Make a table of the
+    approximations for $n=1,~2,~3,\ldots$. What do you think the
+    derivative of $\sin(t)$ at $t=0$ is?
+
     \vfill
+    
   \end{subproblem}
+
+  \clearpage
+  
+\item Repeat the previous question but try to approximate the
+  derivative of the cosine at $t=0$.
+
+  \vfill
 
 \end{problem}
 
@@ -2069,14 +2139,17 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
 %=========================================================================
 \preClass{Basic Trigonometry}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-19}
+
 \begin{problem}
 \item A cart is initially located at the origin and is pointing in the
   direction of the positive $x$-axis. First it moves forward for 2
   seconds at a constant velocity of 0.5 m/second. It then stops and
-  turns $\frac{\pi}{3}$ radians to the left and moves forward for 4
-  seconds at a constant velocity of 0.5 m/second. Finally it stops and
-  turns $\frac{5\pi}{6}$ radians to the left and moves forward for 8
-  seconds at a constant velocity of 0.5 m/second.
+  turns $\frac{\pi}{3}$ radians from its current orientation to the
+  left and moves forward for 4 seconds at a constant velocity of 0.5
+  m/second. Finally it stops and turns $\frac{5\pi}{6}$ radians from
+  its current orientation to the left and moves forward for 8 seconds
+  at a constant velocity of 0.5 m/second.
 
   \scalebox{0.65}{\input{py/week6/trigPath_week6day3.pgf}}
 
@@ -2148,7 +2221,7 @@ and its initial velocity is zero and its initial position is $x(0)=0$m.
       \vfill
     \item Determine the differential equation describing the motion of
       the cart in the horizontal direction. Assume that the fan is
-      initially pointing to the right.
+      initially pointing directly to the right.
       \vfill
       \clearpage
     \item Determine the position of the cart at any time assuming that

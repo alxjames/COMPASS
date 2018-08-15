@@ -3,6 +3,8 @@
 %=========================================================================
 \preClass{Derivatives of Basic Trigonometric Functions}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-29}
+
 \begin{problem}
 \item Determine the derivatives of the following functions:
   \begin{subproblem}
@@ -11,7 +13,7 @@
   \item $\cos(8t)$
     \vfill
   \end{subproblem}
-\item Determine the anti-derivatives of the following functions:
+\item Determine the general anti-derivatives of the following functions:
   \begin{subproblem}
   \item $\cos(3t)$
     \vfill
@@ -29,9 +31,10 @@
   \begin{subproblem}
   \item Determine the position at any time.
     \vfill
-  \item Describe the qualitative behaviour of the position. Does the position
-    oscillate, grow, or decay? For what values of $v_0$ and $x_0$ do
-    you see different behaviours?
+  \item Describe the qualitative behaviour of the object's
+    position. Does the object's position oscillate, grow, or decay?
+    For what values of $v_0$ and $x_0$ do you see different
+    behaviours?
     \vfill
   \end{subproblem}
 
@@ -42,10 +45,10 @@
 \begin{problem}
 
 \item An object is attached to a rigid spring on a frictionless
-  horizontal table. The origin is determined to be the equilibrium
+  horizontal table. The origin is defined to be the equilibrium
   position for the object. The mass of the object is 3kg. The object
   is drawn back 0.05m and released from rest. The spring obeys Hooke's
-  law with a constant, $k=0.4$N/m.
+  law, and it's constant is $k=0.4$N/m.
   \begin{subproblem}
     \item Make a sketch of the physical situation.
       \vfill
@@ -53,14 +56,15 @@
       assuming that the friction is negligible for now.
       \vfill
     \item Describe the qualitative behaviour that you expect to see
-      from the physical system. How should it behave?
+      from the physical system. How should it behave? 
       \vfill
     \item Determine the equation of motion in the $x$-direction
       ignoring friction.
+      \label{subproblem:odeMassSpring}
       \vfill
 
     \item Based on your description of the expected behaviour what
-      kind of function mimics that behaviour?
+      kind of \textbf{functions} mimics that behaviour?
       \vspace{3em}
 
       \clearpage
@@ -75,10 +79,11 @@
         with the equation.}
       \begin{subproblem}
       \item Determine the velocity and acceleration based on the
-        position above.
+        definition of the position above.
         \vfill
       \item Substitute these results into your equation for the motion
-        of the object.
+        of the object you derived in question
+        \ref{subproblem:odeMassSpring}.
         \vfill
         \clearpage
       \item Put all of the sines on one side of the equality and all
@@ -135,6 +140,8 @@
 %=========================================================================
 \preClass{Simple Harmonic Motion}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-30}
+
 \begin{problem}
 \item Determine the solution to the following differential equations.
   \begin{subproblem}
@@ -153,9 +160,9 @@
   \begin{subproblem}
     \item Make a sketch of the physical situation.
       \vfill
-    \item Make a sketch of the free body diagram. Ignore any friction
-      assuming that the friction is negligible for now. Assume that
-      the spring constant is $k$ N/m and the mass is $m$ kg.
+    \item Make a sketch of the free body diagram.  Assume that the
+      friction is negligible for now. Assume that the spring constant
+      is $k$ N/m and the mass is $m$ 
       \vfill
     \item Describe the qualitative behaviour that you expect to see
       from the physical system. How should it behave?
@@ -168,9 +175,9 @@
 
 \item We now have the general equations of motion for a spring-mass
   system with parameters $k$ and $m$. The goal is to determine values
-  of $k$ and $m$ so that the first time \textbf{after} it is in motion
-  the system reaches its maximum distance away from the origin in 0.1
-  seconds. Assume that the object is first pulled 0.3 m from
+  of $k$ and $m$ so that the first time \textbf{after} $t=0$ the
+  system will reach its maximum distance away from the origin in
+  $t=0.1$ seconds. Assume that the object is first pulled 0.3 m from
   equilibrium and released from rest. What is the constraint for $k$
   and $m$?
 
@@ -204,7 +211,8 @@
   \end{itemize}
 
 
-\item Rewrite the system to optimize from this set of activities (question \ref{activity:optimization:spring}).
+\item Rewrite the system to optimize from this set of activities
+  (question \ref{activity:optimization:spring}).
     \begin{eqnarray*}
       \mathrm{Minimize:} & &  \\
       \mathrm{Constraint:} & &
@@ -223,7 +231,8 @@
     \end{subproblem}
 \clearpage
 
-\item Rewrite the system to optimze from this set of activities (question \ref{activity:optimization:spring}).
+\item Rewrite the system to optimze from this set of activities
+  (question \ref{activity:optimization:spring}).
   \begin{eqnarray*}
     \mathrm{Minimize:} & &  \\
     \mathrm{Constraint:} & &
@@ -239,6 +248,8 @@
 % Start of activities on systems of equations
 %=========================================================================
 \preClass{Linearizations}
+
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-31}
 
 \begin{problem}
 \item We examine the linearization of the function
@@ -256,9 +267,19 @@
   \item Make a sketch of the function $f(x)$ on the axes.
   \item Add a sketch of the tangent line to the function at $x=1$.
   \item Determine the formula for the tangent line at $x=1$.
+    \sideNote{Another term for the tangent line is the
+      \textit{linearization}. The function you just found is the
+      linearization of $f(x)$ at $x=1$.}
     \vfill
 
+    (over)
   \end{subproblem}
+  \clearpage
+\item Determine the linearization of the function
+  \begin{eqnarray*}
+    g(t) & = & \cos(t)
+  \end{eqnarray*}
+  at $t=\frac{\pi}{4}$.
 \end{problem}
 
 
@@ -276,21 +297,22 @@
 
   \item Make a sketch of the relationship $f(x)=x^2-4$ on the axes.
   \item Suppose you cannot determine the value of $x$ where $f(x)=0$,
-    and you make an initial estimate that $x=1$ is a root. Add a
-    sketch of the tangent line to the function at $x=1$.
+    but you estimate that $x=1$ is close to a root. Add a sketch of
+    the tangent line to the function at $x=1$.
 
-  \item Mark the point where the height of the \textbf{tangent line}
-    is zero. Is this new $x$ value a better or worse approximation for the value of
-    $x$?
+  \item Mark the point where the height of the graph of the
+    \textbf{tangent line} is zero. Is this new $x$ value a better or
+    worse approximation for the value of the actual root?
 
     \vspace{2em}
 
     \clearpage
 
 
-  \item Determine analytically the tangent line to the graph of the
-    curve at the initial estimate for the root, $x=1$. Determine the
-    value of $x$ where the height of the tangent line is zero.
+  \item Determine analytically the equation for the tangent line to
+    the graph of the curve at the initial estimate for the root,
+    $x=1$. Determine the value of $x$ where the height of the graph of
+    the tangent line is zero.
 
     \vfill
 
@@ -299,14 +321,14 @@
     your original plot on the previous page.
 
   \item Mark the point where the height of the \textbf{tangent line}
-    is zero. Is this new $x$ value a better or worse approximation for the value of
-    $x$?
+    is zero. Is this new $x$ value a better or worse approximation for
+    the value of $x$?
 
     \vspace{2em}
 
   \item Determine analytically the tangent line to the graph of the
     curve at the new estimate for the root. Determine the value of $x$
-    where the height of this new tangent line is zero.
+    where the height of the graph of this new tangent line is zero.
 
     \vfill
 
@@ -314,9 +336,9 @@
   \item Add sketch of another tangent line at the new value of $x$ to
     your original plot on the previous page.
 
-  \item Mark the point where the height of the \textbf{new tangent line}
-    is zero. Is this new $x$ value a better or worse approximation for
-    the value of $x$?
+  \item Mark the point where the height of the graph of the
+    \textbf{new tangent line} is zero. Is this new $x$ value a better
+    or worse approximation for the value of $x$?
 
 
   \end{subproblem}
@@ -324,8 +346,8 @@
   \clearpage
 
 \item Determine an algorithm to calculate the tangent line to a
-  function at $x=a$, and find the value of $x$ where the tangent line
-  is zero.
+  function at $x=a$, and find the value of $x$ where the height of the
+  graph of the tangent line is zero.
 
   \vfill
 
@@ -350,8 +372,8 @@
   \item
   \item
   \end{itemize}
-\item We will graphically determine the values of $x$ and $y$ that
-  satisfy both of the following equations:
+\item Graphically determine the values of $x$ and $y$ that satisfy
+  both of the following equations:
   \begin{eqnarray*}
     x^2 + y  & = & 0, \\
     x - 2y^2 & = & 1.
@@ -378,9 +400,10 @@
     x + 4y & = & 7, \\
     x + 3y & = & 5.
   \end{eqnarray*}
+  Solve the system analytically.
   \clearpage
-\item We will graphically determine the values of $x$ and $y$ that
-  satisfy both of the following equations:
+\item Graphically determine the values of $x$ and $y$ that satisfy
+  both of the following equations:
   \begin{eqnarray*}
     x + 4y & = & 7, \\
     x + 3y & = & 5.
@@ -405,6 +428,8 @@
 % Start of activity on vector operations
 %=========================================================================
 \preClass{Law of Cosines}
+
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-32}
 
 \begin{problem}
 \item Answer each of the questions below.
@@ -431,6 +456,8 @@
 
   \item Determine the magnitude of the vector $\vec{u}-\vec{v}$ using
     the components as described above.
+    \sideNote{Determine the components of $\vec{u}-\vec{v}$ and do not
+      forget to FOIL out the terms when you determine the magnitude.}
 
     \vfill
 
@@ -441,7 +468,7 @@
 
 \actTitle{The Dot Product}
 \begin{problem}
-\item  In the diagram below draw the vector $\vec{u}-\vec{v}$.
+\item  In the diagram below sketch the vector $\vec{u}-\vec{v}$.
 
   \includegraphics[width=7cm]{ink/week11/dotProduct}
 
@@ -502,6 +529,8 @@
 %=========================================================================
 \preClass{The Area of a Parallelogram}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-33}
+
 \begin{problem}
 \item Determine the area of the parallelogram shown below. The area
   should be in terms of $a$, $b$, and $\theta$.
@@ -514,6 +543,7 @@
   \begin{eqnarray*}
     \left( a + b \right) \cdot \left( c + d \right).
   \end{eqnarray*}
+  \sideNote{FOIL out the product.}
 
   \vfill
 
@@ -522,8 +552,10 @@
 
 \actTitle{The Cross Product}
 \begin{problem}
-\item The cross product of two vectors, $\vec{u}\times\vec{v}$, is
-  derived by first defining  the following identities:
+\item A new operation, the cross product, is defined, and the
+  operations to calculate the cross product are derived. The cross
+  product of two vectors, $\vec{u}\times\vec{v}$, is derived by first
+  defining the following identities:
   \begin{eqnarray*}
     \vec{\imath} \times \vec{\jmath} & = & \vec{k}, \\
     \vec{\jmath} \times \vec{k} & = & \vec{\imath}, \\
@@ -531,6 +563,7 @@
     \vec{u} \times \vec{u} & = & 0 \vec{\imath}, \\
     \vec{u} \times \vec{v} & = & - \vec{v} \times \vec{u}.
   \end{eqnarray*}
+  Note that the cross product of two vectors is a vector.
   \begin{subproblem}
   \item For the first three identities above make a sketch to
     demonstrate the relationships.
@@ -593,6 +626,8 @@
 %=========================================================================
 \preClass{Path Around The Unit Circle}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-34}
+
 \begin{problem}
 \item Suppose that the position of a point mass is given by
   \begin{eqnarray*}
@@ -601,6 +636,8 @@
   \begin{subproblem}
   \item Determine the position of the point mass at ${\displaystyle
       t=\frac{\pi}{3}}$.
+    \sideNote{Your answer should be a vector using
+      $\vec{\imath}-\vec{\jmath}$ notation.}
     \vfill
   \item Determine the position of the point mass at ${\displaystyle
       t=\frac{\pi}{4}}$.
@@ -611,8 +648,9 @@
   \item Determine the position of the point mass at ${\displaystyle
       t=\frac{\pi}{2}}$.
     \vfill
+    (over)
     \clearpage
-  \item Make a sketch of all the coordinates that the point mass moves
+  \item Make a sketch of all the points that the point mass moves
     through from $t=0$ to $t=2\pi$. (Mark the starting point and the
     direction of movement.)
     \vfill
@@ -631,32 +669,32 @@
   \begin{subproblem}
   \item What can you say about the position of the point mass?
     \vfill
-  \item What is the magnitude of the position?
+  \item What is the magnitude of the position for any time?
     \vfill
   \item What is the velocity of the point mass in terms of $\theta(t)$
     and $\theta'(t)$.
     \vfill
-  \item What is the magnitude of the velocity?
+  \item What is the magnitude of the velocity for any time?
     \vfill
   \end{subproblem}
 
   \clearpage
 
 \item Assume that a point mass is located on the edge of a circle with
-  radius $R$.  From the definition of radian measure the position on
-  the arc of a circle is given by
+  radius $R$.  From the definition of radian measure the length of the
+  corresponding arc of a circle is given by
   \begin{eqnarray*}
     s & = & R \theta(t).
   \end{eqnarray*}
   \label{activity:angularVelocity:two}
   \begin{subproblem}
   \item Assume that $R$ is a constant. Determine the speed of the
-    point mass.
+    point mass at any time.
     \vfill
   \item How do you interpret the meaning of $\theta'(t)$?
     \vfill
   \item Assume that $R$ is a constant. Determine the acceleration of
-    the point mass.
+    the point mass at any time.
     \vfill
   \end{subproblem}
 
@@ -691,20 +729,23 @@
 %=========================================================================
 \preClass{Moment of Inertia}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-35}
+
 \begin{problem}
 \item A point mass of 2 kg is located at $3\vec{i} + 2\vec{j}$, and a
   point mass of 4 kg is located at $-\vec{i}+3\vec{j}$. The two masses
   rotate around the $\vec{k}$ axis at the same rate. Determine the
-  moment of inertia of inertia of the two masses.
+  moment of inertia of the two masses.
 
   \vfill
 
+  (over)
   \clearpage
 
 
-\item A set of three point masses is lined up on the $x$ axis. They are
-  positioned at $x_n=\frac{n}{3}$ where $n=0,~1,~2$. The mass of
-  each point mass is $\frac{5n}{3}$ kg.
+\item Three point masses are lined up on the $x$ axis. They are
+  positioned at $x_n=\frac{n}{3}$ where $n=0,~1,~2$. The mass of each
+  point mass is $\frac{5n}{3}$ kg.
   \begin{subproblem}
     \item Make a rough sketch of the system.
       \vfill
@@ -721,14 +762,15 @@
 
 \actTitle{Moment of Inertia for Continuous Masses}
 \begin{problem}
-\item A thin metal rod is located on the $x$-axis. The left side of
+\item A thin metal rod is aligned along the $x$-axis. The left side of
   the rod is located at $x=0$m and the right hand side is located at
-  $x=1$m. The density of the rod is given by $\rho(x)=5x$ kg/m.
+  $x=1$m. The density of the rod is $\rho(x)=5x$ kg/m.
   \begin{subproblem}
     \item Make a rough sketch of the system.
       \vfill
-    \item Divide it up into $N$ equal sized small segments. Determine
-      the location of the left hand side of each small segment.
+    \item Divide the rod into $N$ equal sized small
+      segments. Determine the location of the left hand side of each
+      small segment.
       \vfill
     \item Determine an approximation for the density of each small
       segment. (Keep the approximation in terms of $x_k$.)
@@ -741,11 +783,11 @@
 
     \item Determine the sum that can be used to approximate the center
       of mass and the sum that can be used to approximate the moment
-      of inertia around the $y$-axis.
+      of inertia of the whole rod around the $y$-axis.
 
       \vfill
 
-    \item Determine the center of mass and the moment of inertia for
+    \item Determine the exact center of mass and moment of inertia for
       the rod.
 
       \vfill
@@ -775,10 +817,12 @@
 %=========================================================================
 \preClass{Constant Angular Velocity}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-36}
+
 \begin{problem}
 \item An object moves around a circle with a constant angular
-  velocity, $\omega$, and a constant distance from the origin,
-  $r$. The initial angle, $\theta$, is zero.
+  velocity, $\omega$, and the distance from the origin is $r$. The
+  initial angle, $\theta$, from the $x$-axis is zero.
   \begin{subproblem}
   \item Determine the angle at any time.
     \vfill
@@ -800,10 +844,9 @@
 
   \begin{subproblem}
     \sideNote{Draw the vector $\delta\vec{r}$ in the plot.}
-  \item based on the plot below to graphically represent the
-    difference in the positions between any times, $\vec{r}(t+\delta
-    t)-\vec{r}(t)$. Blow up, redraw, and focus just on the two
-    positions on the circle.
+  \item Graphically represent the difference in the positions between
+    any times, $\vec{r}(t+\delta t)-\vec{r}(t)$. Blow up, redraw, and
+    focus just on the two positions shown on the circle.
 
 \begin{tikzpicture}[y=2.2cm, x=2.2cm,font=\sffamily]
   \draw[black,->] (-1.5,0) -- (1.5,0) node[anchor=north east] {$x$};
@@ -816,11 +859,11 @@
 \end{tikzpicture}
     \vfill
 
-    \sideNote{Draw the velocity vectors and then sketch the difference.}
   \item Graphically represent the difference in the velocity vectors,
     $\vec{v}(t+\delta t)-\vec{v}(t)$, at the two positions in the plot
     below. Blow up, redraw, and focus just on the two positions on the
     circle.
+    \sideNote{Based on your previous result estimate the velocity vectors.}
 
     \begin{tikzpicture}[y=2.2cm, x=2.2cm,font=\sffamily]
       \draw[black,->] (-1.5,0) -- (1.5,0) node[anchor=north east] {$x$};
@@ -841,8 +884,9 @@
 
 \actTitle{Energy Associated With Constant Angular Velocity}
 \begin{problem}
-\item An object moves around a circle of radius $r$  at a constant
-  rate, $\theta=\omega t$. Its position at any time is $\vec{r}$.
+\item An object moves around a circle of radius $r$ at a constant
+  rate, $\theta=\omega t$. Its position at any time is denoted
+  $\vec{r}(t)$.
 
   \begin{subproblem}
   \item Determine the position at any time. Express the position as
@@ -854,6 +898,7 @@
     derivatives of the position with respect to time.
     \vfill
   \item Determine the kinetic energy of the object at any time.
+    \sideNote{Is the kinetic energy a vector or scalar quantity?}
     \vfill
   \end{subproblem}
 
@@ -948,6 +993,8 @@
 %=========================================================================
 \preClass{Constant Angular Velocity}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-37}
+
 \begin{problem}
 %\item A mass is moving in a circle of radius $R$ at a constant speed,
 %  $v$.
@@ -992,7 +1039,7 @@
 \begin{problem}
 \item The position of a mass is
   $\vec{r}(t)=r\cos(\omega t^2)\vec{i}+r\sin(\omega t^2)\vec{j}$. The
-  value of $\omega$ is a constant.
+  parameter $\omega$ is a constant.
   \begin{subproblem}
   \item Draw a sketch of the object's path. Include the start point
     and the direction of travel of the object.
@@ -1002,7 +1049,7 @@
     \vfill
     \clearpage
   \item Is the relationship $|\vec{a}|=\frac{|\vec{v}(t)|^2}{|\vec{r}(t)|}$
-    still valid?
+    still true?
     \vfill
     \vfill
   \item Determine the radial component, $\vec{a}_r(t)$, of the
@@ -1023,7 +1070,7 @@
   \end{itemize}
 \item The position of a mass is
   $\vec{r}(t)=r\cos(\omega t)\vec{i}+r\sin(\omega t)\vec{j}$. The
-  value of $\omega$ is a constant.
+  parameter $\omega$ is a constant.
   \begin{subproblem}
   \item Draw a sketch of the object's path. Include the start point
     and the direction of travel of the object.
@@ -1045,6 +1092,8 @@
 %=========================================================================
 \preClass{Inverse Trigonometric Functions}
 
+\qrcode[height=1.5cm,hyperlink,tight]{https://kellyblack.github.io/COMPASS/html/calcOne.html#goals-for-activity-38}
+
 \begin{problem}
 \item Make a sketch of the unit circle. Mark and label the points on
   the circle that correspond to the angles $\frac{\pi}{4}$,
@@ -1058,6 +1107,9 @@
 \item If the sine of an angle is $\frac{\sqrt{3}}{2}$ what are all
   possible values of the angle?
   \vfill
+\item Is the sine function invertable? (Briefly explain your
+  reasoning.)
+  \vspace{2em}
 \end{problem}
 
 
@@ -1078,11 +1130,12 @@
   \item Assuming that $y$ is a function of $t$ use the chain rule to
     determine the derivative of $y(t)$ with respect to $t$.
     \vfill
-  \item Use the identity $\sin^2(y)+\cos^2(y)=1$ to express $y'(t)$ in
-    terms of $\sin(y)$.
+  \item Use the identity $\sin^2(y)+\cos^2(y)=1$ to express your
+    equation for $y'(t)$ in terms of $\sin(y)$.
     \vfill
-  \item Use the definition of $y(t)$ from part \ref{subproblem:inverseSine} to determine $y'(t)$ only in
-    terms of $t$.
+  \item Use the definition of $y(t)$ from part
+    \ref{subproblem:inverseSine} to determine $y'(t)$ only in terms of
+    $t$.
     \vfill
 
   \end{subproblem}
@@ -1121,20 +1174,20 @@
   \item
   \end{itemize}
 
-\item Use the result on the derivative of the inverse to show that the
-  derivative of the square root function satisfies
+\item Use the method to determine the derivative of the inverse to
+  show that the derivative of the square root function satisfies
   \begin{eqnarray*}
     \frac{d}{dt} \sqrt{t} & = & \frac{1}{2\sqrt{t}}.
   \end{eqnarray*}
 
   \vfill
 
-\item Use the result on the derivative of the inverse to determine the
-  derivative of the inverse cosine function.
+\item Use the method to determine the derivative of the inverse to
+  \textbf{derive} the derivative of the inverse cosine function.
   \vfill
 
-\item Use the result on the derivative of the inverse to show that the
-  derivative of the natural logarithm satisfies
+\item Use the method to determine the derivative of the inverse to
+  show that the derivative of the natural logarithm satisfies
   \begin{eqnarray*}
     \frac{d}{dt} \ln(t) & = & \frac{1}{t}.
   \end{eqnarray*}
